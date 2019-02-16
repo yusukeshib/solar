@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "solar",
+    "description": "This project is really great.",
+    "slug": "solar",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.1",
+    "githubUrl": "https://github.com/yusukeshibata/solar",
+    "orientation": "portrait",
+    "primaryColor": "#000000",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "assetExts": [
+        "png"
+      ]
+    },
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 30000 
+    },
+    "ios": {
+      "bundleIdentifier": "io.fata.shibata.solar",
+      "buildNumber": "2",
+      "icon": "./assets/icon.png",
+      "supportsTablet": true,
+      "isTabletOnly": false,
+      "splash": {
+        "backgroundColor": "#000000",
+        "resizeMode": "contain",
+        "image": "./assets/splash.png",
+        "tabletImage": "./assets/splash.png"
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Solar accesses location to calculate star's position at your current location.",
+        "NSLocationAlwaysUsageDescription": "Solar accesses location to calculate star's position at your current location."
+      }
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content"
+    },
+    "android": {
+      "package": "io.fata.shibata.solar",
+      "versionCode": 3,
+      "icon": "./assets/icon.png",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "splash": {
+        "backgroundColor": "#000000",
+        "resizeMode": "cover",
+        "ldpi": "./assets/splash.png",
+        "mdpi": "./assets/splash.png",
+        "hdpi": "./assets/splash.png",
+        "xhdpi": "./assets/splash.png",
+        "xxhdpi": "./assets/splash.png",
+        "xxxhdpi": "./assets/splash.png"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
